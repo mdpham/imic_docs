@@ -5,21 +5,11 @@ import { calloutLink } from './Homepage.module.scss';
 
 import Carbon from './carbon.jpg';
 
-const FirstLeftText = () => <p>Callout component</p>;
+const FirstLeftText = () => <p>IMiC</p>;
 
 const FirstRightText = () => (
   <p>
-    This is a callout component. You can edit the contents by updating the{' '}
-    <a href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/5fe12de31bb19fbfa2cab7c69cd942f55aa06f79/packages/example/src/gatsby-theme-carbon/templates/Homepage.js">
-      pre-shadowed homepage template
-    </a>
-    . You can also provide <code>color</code> and <code>backgroundColor</code>{' '}
-    props to suit your theme.
-    <a
-      className={calloutLink}
-      href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/main/packages/example/src/gatsby-theme-carbon/templates/Homepage.js">
-      Homepage source →
-    </a>
+    This is the documentation site for the International Milk  Composition (IMiC) Consortium
   </p>
 );
 
@@ -37,7 +27,7 @@ const SecondRightText = () => (
   </p>
 );
 
-const BannerText = () => <h1>Carbon Gatsby theme</h1>;
+const BannerText = () => <h1>IMiC Data Portal Documentation</h1>;
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
@@ -49,14 +39,14 @@ const customProps = {
       rightText={FirstRightText}
     />
   ),
-  SecondCallout: (
-    <HomepageCallout
-      leftText={SecondLeftText}
-      rightText={SecondRightText}
-      color="white"
-      backgroundColor="#061f80"
-    />
-  ),
+  // SecondCallout: (
+  //   <HomepageCallout
+  //     leftText={SecondLeftText}
+  //     rightText={SecondRightText}
+  //     color="white"
+  //     backgroundColor="#061f80"
+  //   />
+  // ),
 };
 
 // spreading the original props gives us props.children (mdx content)

@@ -3,16 +3,16 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 
 const links = [
   {
-    title: 'Github',
-    href: 'https://github.com/carbon-design-system/gatsby-theme-carbon',
+    title: 'Git (Portal)',
+    href: 'https://www.milcresearch.com/imic.html',
   },
   {
-    title: 'Carbon',
-    href: 'https://www.carbondesignsystem.com',
+    title: 'IMiC (Consortium)',
+    href: 'https://www.milcresearch.com/imic.html',
   },
   {
-    title: 'Configuration guide',
-    href: '/guides/configuration',
+    title: 'Development Team (UHN)',
+    href: 'https://uhndata.io/',
   },
 ];
 

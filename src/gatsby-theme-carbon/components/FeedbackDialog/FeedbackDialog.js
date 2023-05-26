@@ -3,6 +3,7 @@ import ThemeFeedbackDialog from 'gatsby-theme-carbon/src/components/FeedbackDial
 
 const FeedbackDialog = ({ props }) => {
   const onSubmit = (data) => {
+    // Send to IMiC email?
     console.log({ ...data });
   };
 

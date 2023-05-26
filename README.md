@@ -11,9 +11,6 @@
 
 ## How do I use it?
 
-Check out our quick
-[getting started](https://gatsby-theme-carbon.now.sh/getting-started) guide and
-video!
 
 `gatsby-theme-carbon` at it’s core relies on [mdx](https://mdxjs.com/) for page
 creation. Check out the `src/pages` directory for some examples for using mdx.
