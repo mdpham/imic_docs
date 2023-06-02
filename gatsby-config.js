@@ -4,7 +4,7 @@ module.exports = {
     description: 'A Gatsby theme for the carbon design system',
     // keywords: 'gatsby,theme,carbon',
   },
-  pathPrefix: `/gtc`,
+  pathPrefix: `/docs`,
   plugins: [
     {
       resolve: 'gatsby-plugin-manifest',
@@ -12,7 +12,7 @@ module.exports = {
         name: 'Carbon Design Gatsby Theme',
         icon: 'src/images/favicon.svg',
         short_name: 'Gatsby Theme Carbon',
-        start_url: '/',
+        start_url: '/docs',
         background_color: '#ffffff',
         theme_color: '#161616',
         display: 'browser',
