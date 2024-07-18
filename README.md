@@ -1,1 +1,1 @@
-# imic_docs
+IMiC
