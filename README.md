@@ -1,6 +1,7 @@
 IMiC
 
-[link](#introduction)
+[Introduction](#introduction)
+[Terms of Service](#terms-of-service)
 
 # Introduction
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra sem sed odio varius, dictum dictum nibh malesuada. Sed volutpat risus nec ipsum egestas, et mollis nunc ornare. Praesent lobortis libero non dui imperdiet, vel maximus ante scelerisque. Aenean tempus ex felis, sit amet molestie tortor consequat tempus. Phasellus id luctus eros, sed blandit risus. Pellentesque a elit blandit, tincidunt est vitae, elementum neque. Morbi sed scelerisque lorem. Cras ac quam sed augue fermentum semper in sed ex.
